@@ -1,7 +1,7 @@
 const express = require('express')
 const router=express.Router();
 
-const MenuItem =require('../models/menuItem');
+const MenuItem =require('./../models/menuItem');
 
 router.post('/',async(req,res)=>{
  
